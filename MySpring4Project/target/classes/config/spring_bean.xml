@@ -11,10 +11,39 @@
 	
 	<!-- Hello클래스를 Bean으로 설정 -->
 	<!-- scope : singleton, prototype, request, session -->
+	
 	<bean id="hello" class="myspring.di.xml.Hello" scope="singleton">
-		<!-- setter injection -->
+		<!-- 
+			setter injection
+			Container 역할을 하는 bean factory가
+			기본 생성자를 이용하여 객체 생성 
+		--> 
 		<property name="name" value="스프링" />
 		<property name="printer" ref="sPrinter" />
 	</bean>
 	
+	<bean id="helloC" class="myspring.di.xml.Hello">
+		<!-- 
+			## constructor injection
+			Container 역할을 하는 bean factory가
+			중복 정의된 생성자를 사용해서 객체 생성 
+		-->
+		<constructor-arg index="0" value="생성자" />
+		<constructor-arg index="1" ref="cPrinter" />
+		<property name="names">
+			<list>
+				<value>java</value>
+				<value>Kotlin</value>
+				<value>Scala</value>
+				<value>Java</value>
+			</list>
+		</property>
+		<property name="ages">
+			<map>
+				<entry key="java" value="1996" />
+				<entry key="kotlin" value="2011" />
+				<entry key="Scala" value="2017" />
+			</map>
+		</property>
+	</bean>
 </beans>
