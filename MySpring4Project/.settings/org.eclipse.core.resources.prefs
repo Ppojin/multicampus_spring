@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/myspring/di/annot/Hello.java=UTF-8
+encoding//src/myspring/di/xml/test/HelloBeanJunitTest.java=UTF-8
+encoding//src/myspring/di/xml/test/HelloBeanSpringTest.java=UTF-8

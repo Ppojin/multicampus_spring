@@ -10,11 +10,11 @@ public class Hello {
 	Map<String, Integer> ages;
 
 	public Hello() {
-		System.out.println("Hello Default Contructor called...");
+		System.out.println("Hello Default Constructor called...");
 	}
 
 	public Hello(String name, Printer printer) {
-		System.out.println("오버로딩된 Hello Constructor");
+		System.out.println("OverLoading Hello Constructor called..");
 		this.name = name;
 		this.printer = printer;
 	}
@@ -28,25 +28,25 @@ public class Hello {
 	}
 
 	public void setName(String name) {
-		System.out.println("Hello setName() called..." + name);
+		System.out.println("Hello setName() called.." + name);
 		this.name = name;
 	}
 
 	public void setPrinter(Printer printer) {
-		System.out.println("Hello setPrinter() called..."+printer.getClass().getName());
+		System.out.println("Hello setPrinter() called.." + printer.getClass().getName());
 		this.printer = printer;
-	}
-	
-	public Map<String, Integer> getAges() {
-		return this.ages;
 	}
 
 	public void setAges(Map<String, Integer> ages) {
 		this.ages = ages;
 	}
-
+	
+	public Map<String, Integer> getAges() {
+		return ages;
+	}
+	
 	public String sayHello() {
-		return "Hello " + this.name;
+		return "Hello " + name;
 	}
 
 	public void print() {
