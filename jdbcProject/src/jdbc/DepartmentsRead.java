@@ -34,7 +34,7 @@ public class DepartmentsRead {
 			System.out.println(stmt.getClass().getName());
 			//4. SQL 실행
 			rs = stmt.executeQuery(sql);
-			//5. query 결과 처리
+			 //5. query 결과 처리
 			while(rs.next()) {
 				String DEPARTMENT_ID = rs.getString("DEPARTMENT_ID");
 				String DEPARTMENT_NAME = rs.getString("DEPARTMENT_NAME");

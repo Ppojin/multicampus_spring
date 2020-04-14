@@ -1,0 +1,120 @@
+2020-04-14 11:24:22 599 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 11:24:22 755 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 11:24:22 758 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@363f0ba0] was not registered for synchronization because synchronization is not active
+2020-04-14 11:24:23 112 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [593045830, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 11:24:23 123 [main] DEBUG userNS.selectUserList - ==>  Preparing: select * from users order by userid 
+2020-04-14 11:24:23 222 [main] DEBUG userNS.selectUserList - ==> Parameters: 
+2020-04-14 11:24:23 274 [main] DEBUG userNS.selectUserList - <==      Total: 3
+2020-04-14 11:24:23 276 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@363f0ba0]
+2020-04-14 11:24:23 278 [main] INFO  myspring.user.test.MyBatisTest - User [userId=gildong, name=홍길동, gender=남, city=서울]
+2020-04-14 11:24:23 278 [main] INFO  myspring.user.test.MyBatisTest - User [userId=java, name=오징어땅콩, gender=여, city=silicon vally]
+2020-04-14 11:24:23 278 [main] INFO  myspring.user.test.MyBatisTest - User [userId=ppojin, name=황효진, gender=남, city=LALA LAND]
+2020-04-14 11:25:43 460 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 11:25:43 607 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 11:25:43 611 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@363f0ba0] was not registered for synchronization because synchronization is not active
+2020-04-14 11:25:43 982 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [593045830, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 11:25:43 992 [main] DEBUG userNS.selectUserList - ==>  Preparing: select * from users order by userid 
+2020-04-14 11:25:44 090 [main] DEBUG userNS.selectUserList - ==> Parameters: 
+2020-04-14 11:25:44 133 [main] DEBUG userNS.selectUserList - <==      Total: 3
+2020-04-14 11:25:44 136 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@363f0ba0]
+2020-04-14 11:25:44 137 [main] INFO  myspring.user.test.MyBatisTest - User [userId=gildong, name=홍길동, gender=남, city=서울]
+2020-04-14 11:25:44 137 [main] INFO  myspring.user.test.MyBatisTest - User [userId=java, name=오징어땅콩, gender=여, city=silicon vally]
+2020-04-14 11:25:44 138 [main] INFO  myspring.user.test.MyBatisTest - User [userId=ppojin, name=황효진, gender=남, city=LALA LAND]
+2020-04-14 13:04:07 766 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 13:04:07 944 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 13:04:07 948 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fae596] was not registered for synchronization because synchronization is not active
+2020-04-14 13:04:08 305 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [576261694, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 13:04:08 316 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserList - ==>  Preparing: select * from users order by userid 
+2020-04-14 13:04:08 413 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserList - ==> Parameters: 
+2020-04-14 13:04:08 455 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserList - <==      Total: 3
+2020-04-14 13:04:08 457 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fae596]
+2020-04-14 13:04:08 458 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=gildong, name=홍길동, gender=남, city=서울]
+2020-04-14 13:04:08 458 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=java, name=오징어땅콩, gender=여, city=silicon vally]
+2020-04-14 13:04:08 458 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=ppojin, name=황효진, gender=남, city=LALA LAND]
+2020-04-14 13:04:49 107 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 13:04:49 284 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 13:04:49 288 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fae596] was not registered for synchronization because synchronization is not active
+2020-04-14 13:04:49 643 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [576261694, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 13:04:49 654 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserList - ==>  Preparing: select * from users order by userid 
+2020-04-14 13:04:49 756 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserList - ==> Parameters: 
+2020-04-14 13:04:49 798 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserList - <==      Total: 3
+2020-04-14 13:04:49 801 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fae596]
+2020-04-14 13:04:49 802 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=gildong, name=홍길동, gender=남, city=서울]
+2020-04-14 13:04:49 802 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=java, name=오징어땅콩, gender=여, city=silicon vally]
+2020-04-14 13:04:49 803 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=ppojin, name=황효진, gender=남, city=LALA LAND]
+2020-04-14 13:38:40 755 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 13:38:40 928 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 13:38:40 932 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fae596] was not registered for synchronization because synchronization is not active
+2020-04-14 13:38:41 295 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [576261694, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 13:38:41 306 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserList - ==>  Preparing: select * from users order by userid 
+2020-04-14 13:38:41 417 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserList - ==> Parameters: 
+2020-04-14 13:38:41 462 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserList - <==      Total: 3
+2020-04-14 13:38:41 466 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fae596]
+2020-04-14 13:38:41 467 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=gildong, name=홍길동, gender=남, city=서울]
+2020-04-14 13:38:41 468 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=java, name=오징어땅콩, gender=여, city=silicon vally]
+2020-04-14 13:38:41 468 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=ppojin, name=황효진, gender=남, city=LALA LAND]
+2020-04-14 13:38:53 352 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 13:38:53 523 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 13:38:53 527 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5da7cee2] was not registered for synchronization because synchronization is not active
+2020-04-14 13:38:53 907 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [783218541, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 13:38:53 917 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==>  Preparing: select * from users where userid=? 
+2020-04-14 13:38:54 018 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==> Parameters: gildong(String)
+2020-04-14 13:38:54 064 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - <==      Total: 1
+2020-04-14 13:38:54 066 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5da7cee2]
+2020-04-14 13:38:54 068 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=gildong, name=홍길동, gender=남, city=서울]
+2020-04-14 13:43:10 450 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 13:43:10 637 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 13:43:10 641 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5da7cee2] was not registered for synchronization because synchronization is not active
+2020-04-14 13:43:11 004 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [783218541, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 13:43:11 016 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==>  Preparing: select * from users where userid=? 
+2020-04-14 13:43:11 122 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==> Parameters: gildong(String)
+2020-04-14 13:43:11 165 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - <==      Total: 1
+2020-04-14 13:43:11 168 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5da7cee2]
+2020-04-14 13:43:11 169 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=gildong, name=홍길동, gender=남, city=서울]
+2020-04-14 14:21:09 200 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 14:21:21 315 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 14:31:24 810 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 14:31:24 986 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 14:31:24 989 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5da7cee2] was not registered for synchronization because synchronization is not active
+2020-04-14 14:31:25 360 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [783218541, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 14:31:25 371 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==>  Preparing: select * from users where userid=? 
+2020-04-14 14:31:25 476 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==> Parameters: gildong(String)
+2020-04-14 14:31:25 520 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - <==      Total: 1
+2020-04-14 14:31:25 523 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5da7cee2]
+2020-04-14 14:31:25 524 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=gildong, name=홍길동, gender=남, city=서울]
+2020-04-14 14:41:09 533 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 14:41:09 716 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 14:41:09 720 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1237e0be] was not registered for synchronization because synchronization is not active
+2020-04-14 14:41:10 100 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [2128859746, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 14:41:10 110 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==>  Preparing: select * from users where userid=? 
+2020-04-14 14:41:10 212 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==> Parameters: gildong(String)
+2020-04-14 14:41:10 257 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - <==      Total: 1
+2020-04-14 14:41:10 260 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1237e0be]
+2020-04-14 14:41:10 261 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=gildong, name=홍길동, gender=남, city=서울]
+2020-04-14 14:43:57 528 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 14:43:57 704 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 14:43:57 709 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d37f1c] was not registered for synchronization because synchronization is not active
+2020-04-14 14:43:58 090 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [254812619, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 14:43:58 100 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==>  Preparing: select * from users where userid=? 
+2020-04-14 14:43:58 204 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==> Parameters: gildong(String)
+2020-04-14 14:43:58 246 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - <==      Total: 1
+2020-04-14 14:43:58 249 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d37f1c]
+2020-04-14 14:43:58 250 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=gildong, name=홍길동, gender=남, city=서울]
+2020-04-14 14:44:09 194 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 14:44:09 366 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 14:44:09 372 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d37f1c] was not registered for synchronization because synchronization is not active
+2020-04-14 14:44:09 796 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [254812619, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 14:44:09 807 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==>  Preparing: select * from users where userid=? 
+2020-04-14 14:44:09 901 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==> Parameters: gildong(String)
+2020-04-14 14:44:09 946 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - <==      Total: 1
+2020-04-14 14:44:09 949 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d37f1c]
+2020-04-14 14:44:09 950 [main] DEBUG myspring.user.test.MyBatisTest - User [userId=gildong, name=홍길동, gender=남, city=서울]
+2020-04-14 14:46:57 723 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 14:46:57 887 [main] INFO  myspring.user.test.MyBatisTest - >>>>> update cnt + cnt
+2020-04-14 14:46:57 890 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 14:46:57 895 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35088e87] was not registered for synchronization because synchronization is not active
+2020-04-14 14:46:58 239 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [1568159144, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 14:46:58 250 [main] DEBUG myspring.user.dao.mapper.UserMapper.updateUser - ==>  Preparing: update users set name = ?, gender = ?, city = ? where userid = ? 
+2020-04-14 14:46:58 354 [main] DEBUG myspring.user.dao.mapper.UserMapper.updateUser - ==> Parameters: 오징어땅콩(String), 여(String), silicon vally(String), java(String)
+2020-04-14 14:46:58 366 [main] DEBUG myspring.user.dao.mapper.UserMapper.updateUser - <==    Updates: 1
+2020-04-14 14:46:58 367 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35088e87]

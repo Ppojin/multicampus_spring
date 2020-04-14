@@ -7,6 +7,18 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
 	
+	<!-- MapperScannerConfigurer 설정 -->
+<!-- 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"> -->
+<!-- 		<property name="basePackage" value="myspring.user.dao.mapper"/> -->
+<!-- 		<property name="annotationClass" value="myspring.user.dao.mapper.MyMapper" />  -->
+<!-- 	</bean> -->
+
+	<!-- Mapper 설정 -->
+	<bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="myspring.user.dao.mapper.UserMapper" />
+		<property name="sqlSessionTemplate" ref="sqlSession" />
+	</bean>
+	
 	<context:component-scan base-package="myspring.user">
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
 	</context:component-scan>

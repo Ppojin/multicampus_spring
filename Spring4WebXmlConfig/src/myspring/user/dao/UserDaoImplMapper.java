@@ -8,9 +8,9 @@ import org.springframework.stereotype.Repository;
 import myspring.user.dao.mapper.UserMapper;
 import myspring.user.vo.UserVO;
 
-//@Repository("userDao")
+@Repository("userDao")
 public class UserDaoImplMapper implements UserDao {
-	//@Autowired
+	@Autowired
 	private UserMapper userMapper;	
 	
 	@Override
@@ -26,7 +26,7 @@ public class UserDaoImplMapper implements UserDao {
 
 	public void insert(UserVO user) {
 		userMapper.insertUser(user);
-		System.out.println("µî·ÏµÈ Record UserId=" + user.getUserId() + 
+		System.out.println("ï¿½ï¿½Ïµï¿½ Record UserId=" + user.getUserId() + 
 				" Name=" + user.getName());
 	}
 
@@ -38,7 +38,7 @@ public class UserDaoImplMapper implements UserDao {
 	@Override
 	public void delete(String id) {
 		userMapper.deleteUser(id);
-		System.out.println("»èÁ¦µÈ Record with ID = " + id ); 
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Record with ID = " + id ); 
 	}
 }
 

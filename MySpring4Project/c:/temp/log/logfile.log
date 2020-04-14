@@ -1,0 +1,8 @@
+2020-04-14 11:09:40 703 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-04-14 11:09:40 861 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-04-14 11:09:40 867 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b016b4e] was not registered for synchronization because synchronization is not active
+2020-04-14 11:09:41 257 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [1082684443, URL=jdbc:oracle:thin:@localhost:1521:xe, UserName=SCOTT, Oracle JDBC driver] will not be managed by Spring
+2020-04-14 11:09:41 267 [main] DEBUG userNS.selectUserList - ==>  Preparing: select * from users order by userid 
+2020-04-14 11:09:41 359 [main] DEBUG userNS.selectUserList - ==> Parameters: 
+2020-04-14 11:09:41 403 [main] DEBUG userNS.selectUserList - <==      Total: 3
+2020-04-14 11:09:41 406 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b016b4e]

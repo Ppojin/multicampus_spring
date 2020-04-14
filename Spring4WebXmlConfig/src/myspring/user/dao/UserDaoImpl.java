@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import myspring.user.vo.UserVO;
-@Repository("userDao")
+//@Repository("userDao")
 public class UserDaoImpl implements UserDao {
 
 	@Autowired
@@ -30,7 +30,7 @@ public class UserDaoImpl implements UserDao {
 	
 	public void insert(UserVO user) {
 		session.update("userNS.insertUser", user);
-		System.out.println("µî·ÏµÈ Record UserId=" + user.getUserId() + " Name=" + user.getName());
+		System.out.println("ï¿½ï¿½Ïµï¿½ Record UserId=" + user.getUserId() + " Name=" + user.getName());
 	}
 
 	@Override
@@ -41,7 +41,7 @@ public class UserDaoImpl implements UserDao {
 	@Override
 	public void delete(String id) {
 		session.delete("userNS.deleteUser", id);
-		System.out.println("»èÁ¦µÈ Record with ID = " + id ); 
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Record with ID = " + id ); 
 	}
 
 
